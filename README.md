@@ -1,18 +1,24 @@
 # droidcam-easy-install
 
-Script for Linux users fed up with having to reinstall droidcam every time the kernel updates
+Shell script to re-install droidcam every time the Linux kernel updates
 
-### Installation
+`install-droidcam.sh`: Run file to install/reinstall droidcam
 
-Clone the repository and then execute the following commands
+`cli-connect.sh`: If you use droidcam-cli, then run this file after opening the Droidcam application on your phone/tablet
+
+### Usage
+
+Clone the repository and run the file `install-droidcam.sh`.
 
 ```
 cd droidcam-easy-install
 ./install-droidcam.sh
 ```
 
+Run Droidcam from your PC after opening the Droidcam application on your mobile device.
+
+### Note
+
 If you are using `droidcam-cli` then open the file `cli-connect.sh` to make a few changes
 
-#### Original Source: 
-
-<a href="https://www.dev47apps.com/droidcam/linux/">Dev47Apps</a>
+#### Original Source: <a href="https://www.dev47apps.com/droidcam/linux/">Dev47Apps</a>
